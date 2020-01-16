@@ -1,3 +1,8 @@
+window.addEventListener("load", () => {
+  const loader = $(".preload");
+  loader.addClass("preload-finish");
+});
+
 //* CART ANIMATION
 const cart = $(".cart");
 cart.hover(
